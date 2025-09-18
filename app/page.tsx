@@ -17,7 +17,7 @@ export default function Page() {
         <p className="text-md font-normal text-gray-500 dark:text-gray-400">Information for observation and rescuing within the Yarra Bend Flying Fox colony.</p>
         <ul className="my-4 space-y-3">
           <li>
-            <Link href="/before_you_go" className="flex items-center p-3 text-base  rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+            <Link href="/preparations" className="flex items-center p-3 text-base  rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
 
               <svg className="w-10 h-10 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
