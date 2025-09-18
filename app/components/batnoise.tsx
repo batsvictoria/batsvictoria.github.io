@@ -1,7 +1,7 @@
 //insert code for app between return (         )}
 export default function Batnoise() {
 
-    const AudioBat = `${process.env.PUBLIC_URL}/audio/bat_noise_trimmed.wav`;
+    const AudioBat = `/audio/bat_noise_trimmed.wav`;
     return (
 
 

@@ -19,8 +19,8 @@ export default function Page() {
 
       <Modal />
       <Pagetitle>Rescue and Wraps</Pagetitle>
-
-      <div className="bg-red-300 dark:bg-gray-800 dark:border-gray-700 rounded-lg md:p-12 mb-3">
+<div className="w-full p-4 bg-red-300 border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 mb-2">
+ 
         <div className="relative overflow-x-auto sm:rounded-lg">
           <table className="w-full text-sm text-left rtl:text-right dark:text-gray-400">
 
@@ -39,26 +39,21 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-      </div>
+ </div>
 
       <section className="bg-white dark:bg-gray-900">
-        <div className=" mx-auto max-w-screen-xl lg:py-16">
-          <div className="grid md:grid-cols-2 gap-8">
+        <div className=" mx-auto max-w-screen-xl ">
+          <div className="grid ">
             <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg mb-5 md:p-12">
-
-              <h1 className="font-semibold text-2xl mb-1 ps-3 mt-2 ">How to Wrap</h1>
+  <div className="relative sm:rounded-lg"><span><h2 className="text-gray-900 dark:text-white text-3xl font-extrabold m-3">How to Wrap</h2></span> </div>
+             
               <img src={ImageBatWap1} alt="" className="flex-shrink-0" />
-
-
-
               <ul className="max-w-md space-y-1 list-disc list-inside dark:text-gray-400 m-2 ">
 
                 <li>Open Wrap</li>
                 <li>Place dummy in mouth before or during wrapping process</li>
               </ul>
-
-
-              <img src={ImageBatWap2} alt="" className="flex-shrink-0" />
+         <img src={ImageBatWap2} alt="" className="flex-shrink-0" />
 
               <ul className="max-w-md space-y-1 list-disc list-inside dark:text-gray-400 m-2 ">
                 <li>Place bats tummy on the stuffing side of the roll (Bat will grab on with feet like they
@@ -70,15 +65,16 @@ export default function Page() {
           </div>
         </div>
 
-        <div className=" mx-auto max-w-screen-xl lg:py-16">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-green-200 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg  md:p-12">
+        <div className="w-full p-4 bg-green-300 border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 mb-2">
 
-              <h1 className="font-semibold text-2xl mt-2 mb-3 ps-3">After Rescue/ Post Retrieval</h1>
+         
+            
+<div className="relative sm:rounded-lg"><span><h2 className="text-gray-900 dark:text-white text-3xl font-extrabold m-3">After Rescue/Post Retrieval</h2></span> </div>
+            
               <img
                  src={ImageRecuedBat} 
                  alt="" 
-                 className="flex-shrink-0  max-w-sm mx-auto rounded-lg" />
+                 className="flex-shrink-0  max-w-xs mx-auto rounded-lg" />
 
               <ol className=" m-5 max-w-md space-y-1 list-decimal list-inside dark:text-gray-400">
 
@@ -96,14 +92,8 @@ export default function Page() {
 
 
 
-
-
-
-
-            </div>
           </div>
-        </div>
-
+    
 
 
 

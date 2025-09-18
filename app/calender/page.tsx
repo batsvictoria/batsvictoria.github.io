@@ -12,11 +12,9 @@ export default function Page() {
       <span><h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2 m-3">Bat Calendar</h2></span>
 
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="w-full p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 mb-2">
 
 
-        <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-2 md:p-12 mb-3  ">
-          <span><h2 className="text-gray-900 dark:text-white text-2xl font-extrabold mb-3 text-2xl">Time of Day</h2></span>
           <tbody>
             <tr>
               <td className=" p-2">
@@ -48,13 +46,12 @@ export default function Page() {
 
 
         </div>
-      </div>
-
+     
 
 
       <div className="relative  overflow-x-auto shadow-md sm:rounded-lg border-gray-200 border rounded-lg">
 
-        <span><h2 className="text-gray-900 dark:text-white text-2xl font-extrabold m-3">Pup Season </h2></span>
+            <span><h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2 m-3">Pup Season</h2></span>
         <table className="w-full text-sm text-left  dark:text-blue-100">
           <tbody className=" text-white dark:text-white">
             <tr className="text-center align-top">

@@ -17,8 +17,8 @@ export const Modal = () => {
 
             {isOpen && (
 
-                <div id="popup-modal" tabIndex={-1} className="  backdrop-blur-2xl  overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full" >
-                    <div className="relative p-5 pt-10 w-full max-w-md max-h-full">
+                <div id="popup-modal" tabIndex={-1} className="  backdrop-blur-2xl   overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full" >
+                    <div className="relative p-2 pt-10 w-full  max-h-full">
                         <div className="relative bg-white rounded-lg shadow-sm dark:bg-gray-700">
 
                             <div className="p-4 md:p-5 text-center">
@@ -30,12 +30,12 @@ export const Modal = () => {
                                     Yes, I am.
                                 </button>
                                 <a href="/batapp/" data-modal-hide="popup-modal" type="button" className="py-2.5 px-5 ms-3 text-lg font-medium text-gray-900 bg-white rounded-lg border border-gray-200  dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600">
-                                    No, I&aposm Not</a>
+                                    No, I&apos;m Not</a>
                                 <p className=" mt-8 text-lg font-normal text-gray-500 dark:text-gray-400">
                                     Vaccinated Rescuers:
                                 </p>
                                 <p className="mb-5 text-sm font-normal text-gray-500 dark:text-gray-400">
-                                    Being vaxxed doesn&apost always mean you should rescue. Min 24hr monitoring should occur before intervention for Non-Urgent cases
+                                    Being vaxxed doesn&apos;t always mean you should rescue. Min 24hr monitoring should occur before intervention for Non-Urgent cases
                                 </p>
                             </div>
                         </div>
