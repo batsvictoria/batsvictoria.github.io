@@ -1,0 +1,38 @@
+{
+  "name": "@serwist-example/next-basic",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "serve": "next build && npx serve@latest out",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "take": "node scripts/take.js"
+  },
+  "dependencies": {
+    "@serwist/next": "latest",
+    "next": "15.5.2",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.22.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "serwist": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "24.3.0",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "eslint": "^9.35.0",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.44.0"
+  }
+}
