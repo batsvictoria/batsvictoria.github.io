@@ -5,7 +5,6 @@ export const metadata: Metadata = {
 };
 
 import Pagetitle from '@/components/pagetitle'
-import ContactItem from "@/components/contact";
 
 export default function Page() {
   return (

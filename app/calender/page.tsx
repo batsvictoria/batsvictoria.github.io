@@ -4,9 +4,6 @@ export const metadata: Metadata = {
   title: "contact",
 };
 
-import Pagetitle from '@/components/pagetitle'
-import ContactItem from "@/components/contact";
-
 export default function Page() {
   return (
     <>
