@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "contact",
+  title: "locations",
+  description: "location terminology",
+  metadataBase: new URL('https://batsvictoria.github.io/locations'),
+  
 };
 
 import Pagetitle from '@/components/pagetitle'

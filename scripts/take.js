@@ -3,9 +3,6 @@ import { spawn } from "child_process";
 import puppeteer, { KnownDevices } from "puppeteer";
 import fs from "fs";
 import path from "path";
-import { PNG } from "pngjs";
-import pixelmatch from "pixelmatch";
-import sharp from "sharp";
 
 const urls = [
     "/",

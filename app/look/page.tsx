@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 
 import Pagetitle from '@/components/pagetitle'
 import Batnoise from "@/components/batnoise";
-
-const AloneBat = '/images/alone_bat_2.svg';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock, faEye, faHeadphones, faWarning } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Page() {
@@ -26,23 +26,17 @@ export default function Page() {
             <tbody>
               <tr className="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200  ">
                 <td className="pl-6">
-                  <svg className="w-20 h-20 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" strokeWidth="2" d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
-                    <path stroke="currentColor" strokeWidth="2" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                  </svg>
-
+                  <FontAwesomeIcon icon={faEye} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
                 </td>
                 <td className="px-6 py-4 text-gray-900 dark:text-white">
                   <h1 className="font-semibold text-2xl ">Look</h1>
                   <p>Look for pups away from their mother or pups low in trees.</p>
                 </td>
               </tr>
-
+    
               <tr className="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 ">
                 <td className="pl-6">
-                  <svg className="w-20 h-20 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" strokeLinejoin="round" strokeWidth="2" d="M20 16v-4a8 8 0 1 0-16 0v4m16 0v2a2 2 0 0 1-2 2h-2v-6h2a2 2 0 0 1 2 2ZM4 16v2a2 2 0 0 0 2 2h2v-6H6a2 2 0 0 0-2 2Z" />
-                  </svg>
+                  <FontAwesomeIcon icon={faHeadphones} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
                 </td>
                 <td className="px-6 py-4 text-gray-900 dark:text-white">
                   <h6 className="font-semibold text-2xl ">Listen</h6>
@@ -54,11 +48,9 @@ export default function Page() {
 
               <tr className=" dark:bg-gray-800 dark:border-gray-700 border-gray-200 ">
                 <td className="pl-6">
-                  <img
-                     src={AloneBat} 
-                     className=" md:w-20 max-w-full max-h-full" 
-                     alt="Apple Watch" />
+                  <FontAwesomeIcon icon={faClock} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
                 </td>
+
                 <td className="px-6 py-4 text-gray-900 dark:text-white">
                   <h6 className="font-semibold text-2xl ">Alone for a long period</h6>
                   (Note the location and check on way out)
@@ -70,32 +62,18 @@ export default function Page() {
         </div>
       </div>
 
-      
-
-          
-
-
-
       <div className="bg-red-300 dark:bg-gray-800 dark:border-gray-700 rounded-lg  md:p-6 mb-2">
         <div className="relative overflow-x-auto sm:rounded-lg">
           <table className="w-full text-sm text-left rtl:text-right dark:text-gray-400">
 
-
-            <tr className="dark:bg-gray-800 dark:border-gray-700  dark:hover:bg-gray-600">
+            <tr className="dark:bg-gray-800 dark:border-gray-700 ">
               <td className="p-1">
-                <svg className="w-[70px] h-[70px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                  <path stroke="currentColor" stroke-linecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 13V8m0 8h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                </svg>
-
+                <FontAwesomeIcon icon={faWarning} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
               </td>
               <td className="px-6 py-4 text-gray-900 dark:text-white">
-
                 <h6>A very low pup or pups on the ground are in direct danger, may be compromised and/or susceptible to dog attack and will be treated as high priority.</h6>
               </td>
             </tr>
-
-
-
 
           </table>
         </div>

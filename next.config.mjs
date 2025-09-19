@@ -11,7 +11,7 @@ const withSerwist = withSerwistInit({
   cacheOnNavigation: true,
   swSrc: "app/sw.ts",
   swDest: "public/sw.js",
-  additionalPrecacheEntries: [{ url: "/~offline", revision }],
+//  additionalPrecacheEntries: [{ url: "/~offline", revision }],
 });
 
 /** @type {import("next").NextConfig} */

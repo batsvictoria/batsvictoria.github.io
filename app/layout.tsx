@@ -3,15 +3,20 @@ import type { ReactNode } from "react";
 import './globals.css'
 import Footer from "./components/footer";
 
+// fontawesome
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
-const APP_NAME = "NJS App";
-const APP_DESCRIPTION = "Next.js + Serwist PWA...";
+
+const APP_NAME = "Bat's Victoria";
+const APP_DESCRIPTION = "Bat's Victoria";
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
   title: {
     default: APP_NAME,
-    template: "%s - NJS App",
+    template: "%s - Bat's Victoria",
   },
   description: APP_DESCRIPTION,
   manifest: "/manifest.json",
