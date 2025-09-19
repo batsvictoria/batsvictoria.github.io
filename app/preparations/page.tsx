@@ -110,7 +110,7 @@ export default function Page() {
       <div className="grid  gap-8">
 
 
-        <div className=" dark:bg-gray-800  rounded-lg p-2 md:p-12">
+        <div className=" dark:bg-gray-800  rounded-lg p-2 content-center md:p-10">
 
           <tbody>
         
