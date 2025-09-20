@@ -5,7 +5,7 @@ export const metadata: Metadata = {
 };
 
 import Pagetitle from '@/components/pagetitle'
-import { faPersonHiking, faUserGroup, faVolumeMute, faWarning } from "@fortawesome/free-solid-svg-icons";
+import { faPersonHiking, faTruckMedical, faUserGroup, faVolumeMute} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -73,7 +73,7 @@ export default function Page() {
             <table className="w-full text-sm  dark:text-gray-400">
               <tr className="dark:bg-gray-800 dark:border-gray-700  dark:hover:bg-gray-600">
               <td className="p-2">
-                 <FontAwesomeIcon icon={faWarning} className="text-black dark:text-white" size="4x" />
+                 <FontAwesomeIcon icon={faTruckMedical} className="text-black dark:text-white" size="4x" />
                 </td>
                 <td className="px-2 py-2 text-gray-900 dark:text-white">
                   <h3 className="text-gray-900 dark:text-white text-xl font-extrabold ">Human Emergency</h3>

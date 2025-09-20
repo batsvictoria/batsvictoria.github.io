@@ -1,5 +1,7 @@
 'use client'
 
+import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 
 
@@ -22,9 +24,7 @@ export const Modal = () => {
                         <div className="relative bg-white rounded-lg shadow-sm dark:bg-gray-700">
 
                             <div className="p-4 md:p-5 text-center">
-                                <svg className="mx-auto mb-4 text-red-600 w-12 h-12 dark:text-gray-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                </svg>
+                                <FontAwesomeIcon icon={faCircleExclamation} className="w-20 h-20 text-red-600 dark:text-white" size="4x" />
                                 <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Are you vaccinated and trained for bat rescues?</h3>
                                 <button onClick={toggleItem} data-modal-hide="popup-modal" type="button" className="text-white bg-green-600 text-lg font-medium rounded-lg text-md inline-flex items-center px-5 py-2.5 text-center">
                                     Yes, I am.

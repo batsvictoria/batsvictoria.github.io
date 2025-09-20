@@ -8,7 +8,7 @@ import Pagetitle from '@/components/pagetitle'
 import ContactItem from "@/components/contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faWarning } from "@fortawesome/free-solid-svg-icons";
+import {  faTruckMedical } from "@fortawesome/free-solid-svg-icons";
 
 export default function Page() {
   return (
@@ -20,7 +20,7 @@ export default function Page() {
         <p className="text-md font-normal text-gray-500 dark:text-gray-400">For any enquiries, questions or concerns</p>
         <ul className="my-4 space-y-3">
 
-          <ContactItem name="Tamsyn" url="#" icon="" >Fly by Night</ContactItem>
+          <ContactItem name="Tamsyn" url="#" icon="" >Fly by Night</ContactItem> 
           <ContactItem name="Emma" url="#" icon="" >Fly by Night</ContactItem>
           <ContactItem name="Megan" url="#" icon="">Friends of Bats & Bushcare</ContactItem>
 
@@ -29,9 +29,8 @@ export default function Page() {
             <a href="#" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
               <img src={ImageFlyByNightLogo} className="w-20 md:w-15 max-w-full max-h-full" alt="Apple Watch" />
               <span className="flex-1 ms-3 whitespace-nowrap ">
-                <h2 className="font-bold text-gray-900 text-xl" >Tamsyn</h2>
-                <p className="italic">Fly By Night</p>
-              </span>
+                <h2 className="font-bold           
+              </span> 
             </a>
           </li>
 
@@ -83,7 +82,7 @@ export default function Page() {
             <table className="w-full text-sm  dark:text-gray-400">
               <tr className="dark:bg-gray-800 dark:border-gray-700  dark:hover:bg-gray-600">
               <td className="p-2">
-              <FontAwesomeIcon icon={faWarning} className="text-black dark:text-white" size="4x" />
+              <FontAwesomeIcon icon={faTruckMedical} className="text-black dark:text-white" size="4x" />
                 </td>
                 <td className="px-2 py-2 text-gray-900 dark:text-white">
                   <h3 className="text-gray-900 dark:text-white text-xl font-extrabold ">Human Emergency</h3>

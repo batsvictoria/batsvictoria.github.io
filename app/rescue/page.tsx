@@ -5,6 +5,8 @@ export const metadata: Metadata = {
 
 import Pagetitle from '@/components/pagetitle'
 import { Modal } from "@/components/modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock} from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -27,9 +29,7 @@ export default function Page() {
             <tbody>
             <tr className="dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600">
               <td className="p-1">
-                <svg className="w-[70px] h-[70px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 13V8m0 8h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                </svg>
+                <FontAwesomeIcon icon={faClock} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
 
               </td>
               <td className="px-6 py-4 text-gray-900 dark:text-white">
