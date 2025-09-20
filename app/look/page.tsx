@@ -67,11 +67,11 @@ export default function Page() {
           <table className="w-full text-sm text-left rtl:text-right dark:text-gray-400">
 
             <tr className="dark:bg-gray-800 dark:border-gray-700  ">
-              <td className="p-1">
+              <td className="p-4">
                 <FontAwesomeIcon icon={faExclamation} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
               </td>
               <td className="px-6 py-4 text-gray-900 dark:text-white">
-                <h6>A very low pup or pups on the ground are in direct danger, may be compromised and/or susceptible to dog attack and will be treated as high priority.</h6>
+                <h6 className="text-md font-semibold">A very low pup or pups on the ground are in direct danger, may be compromised and/or susceptible to dog attack and will be treated as high priority.</h6>
               </td>
             </tr>
 
