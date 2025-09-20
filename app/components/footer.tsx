@@ -1,4 +1,4 @@
-import { faCircleInfo, faHome, faLifeRing, faPhone, IconDefinition } from "@fortawesome/free-solid-svg-icons"
+import { faCircleInfo, faHome, faBriefcaseMedical, faPhone, IconDefinition } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Link from "next/link"
 
@@ -32,7 +32,7 @@ export default function Footer() {
 
                     <FooterButton name="Home" route="/" icon={faHome} />
                     <FooterButton name="Prepare" route="/preparations" icon={faCircleInfo} />
-                    <FooterButton name="Rescue" route="/rescue" icon={faLifeRing} />
+                    <FooterButton name="Rescue" route="/rescue" icon={faBriefcaseMedical} />
                     <FooterButton name="Contact" route="/contact" icon={faPhone} />
 
                 </div>

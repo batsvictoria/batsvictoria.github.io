@@ -5,6 +5,8 @@ export const metadata: Metadata = {
 };
 
 import Pagetitle from '@/components/pagetitle'
+import { faCamera, faLocation, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Page() {
   return (
@@ -27,10 +29,7 @@ export default function Page() {
                   <tbody>
                     <tr className="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200  ">
                       <td className="pl-6">
-                    <svg className="w-[70px] h-[70px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 24">
-                    <path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M4 18V8a1 1 0 0 1 1-1h1.5l1.707-1.707A1 1 0 0 1 8.914 5h6.172a1 1 0 0 1 .707.293L17.5 7H19a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Z" />
-                    <path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                  </svg>
+                    <FontAwesomeIcon icon={faCamera} className="text-black dark:text-white" size="4x" />
 
       
                       </td>
@@ -49,10 +48,7 @@ export default function Page() {
       
                     <tr className=" dark:bg-gray-800 dark:border-gray-700  ">
                       <td className="pl-6">
-                     <svg className="w-[70px] h-[70px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.127.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z" />
-                  </svg>
+                    <FontAwesomeIcon icon={faLocationDot} className="text-black dark:text-white" size="4x" />
                       </td>
                       <td className="px-6 py-4 text-gray-900 dark:text-white">
                         <h6 className="font-semibold text-2xl ">2. Record the Location</h6>

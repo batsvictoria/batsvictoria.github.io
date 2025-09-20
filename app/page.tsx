@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Pagetitle from "./components/pagetitle";
-import { faCalendar, faCircleInfo, faEye, faFlag, faLifeRing, faLocationDot, faPhone, IconDefinition } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcaseMedical, faCircleInfo, faEye, faFlag, faLocationDot, faPhone, faCalendarDays, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export const metadata: Metadata = {
   title: "Bats Victoria",
   description: "Information for observation and rescuing within the Yarra Bend Flying Fox colony."
@@ -37,10 +38,10 @@ export default function Page() {
         <p className="text-md font-normal text-gray-500 dark:text-gray-400">Information for observation and rescuing within the Yarra Bend Flying Fox colony.</p>
         <ul className="my-4 space-y-3">
           <NavLink title="Preparations" description="Safety, Equipment, Guidelines" url="/preparations" icon={faCircleInfo} />
-          <NavLink title="Locations" description="Location Terminology" url="/preparations" icon={faLocationDot} />
+          <NavLink title="Locations" description="Location Terminology" url="/locations" icon={faLocationDot} />
           <NavLink title="What to Look for" description="Sights and Sounds" url="/look" icon={faEye} />
-          <NavLink title="Rescue and Wrap" description="Vaxxed rescuers only" url="/rescue" icon={faLifeRing} />
-          <NavLink title="calender" description="Vaxxed rescuers only" url="/calender" icon={faCalendar} />
+          <NavLink title="Rescue and Wrap" description="Vaxxed rescuers only" url="/rescue" icon={faBriefcaseMedical} />
+          <NavLink title="calender" description="Vaxxed rescuers only" url="/calender" icon={faCalendarDays} />
           <NavLink title="Report Non-Urgent Bats" description="How to report inc. Deceased" url="/report" icon={faFlag} />
           <NavLink title="Important Contacts" description="For any questions or concerns" url="/contact" icon={faPhone} />
         </ul>
