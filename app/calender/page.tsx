@@ -47,9 +47,9 @@ export default function Page() {
      
 
 
-      <div className="relative  overflow-x-auto shadow-md sm:rounded-lg border-gray-200 border rounded-lg">
+      <div className="relative  overflow-x-auto shadow-md sm:rounded-lg border-gray-200 border rounded-lg bg-white">
 
-            <span><h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2 m-3">Pup Season</h2></span>
+            <span><h2 className="text-gray-900  text-3xl font-extrabold mb-2 m-3">Pup Season</h2></span>
         <table className="w-full text-sm text-left  dark:text-blue-100">
           <tbody className=" text-white dark:text-white">
             <tr className="text-center align-top">

@@ -21,18 +21,18 @@ export default function Page() {
 
       <Modal />
       <Pagetitle>Rescue and Wraps</Pagetitle>
-<div className="w-full p-4 bg-red-300 border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 mb-2">
+<div className="w-full p-4 bg-red-300 border border-gray-200 rounded-lg shadow-sm sm:p-6  mb-2">
  
         <div className="relative overflow-x-auto sm:rounded-lg">
           <table className="w-full text-sm text-left rtl:text-right dark:text-gray-400">
 
             <tbody>
-            <tr className="dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600">
+            <tr className="">
               <td className="p-1">
-                <FontAwesomeIcon icon={faClock} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
+                <FontAwesomeIcon icon={faClock} className="w-20 h-20 text-gray-800 " size="4x" />
 
               </td>
-              <td className="px-6 py-4 text-gray-900 dark:text-white">
+              <td className="px-6 py-4 text-gray-900 ">
                 <h6 className="text-md">Being Vaccinated does <u>NOT</u> mean you should rescue. <strong className="font-semibold">Minimum 24hr monitoring should occur before any intervention for Non-Urgent cases.</strong></h6>
               </td>
             </tr>

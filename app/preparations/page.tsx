@@ -68,15 +68,15 @@ export default function Page() {
 
 
 
-<div className="w-full p-4 mb-4 border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 bg-yellow-200">
+<div className="w-full p-4 mb-4 border border-gray-200 rounded-lg shadow-sm sm:p-6   bg-yellow-200">
       <div className="grid  gap-8 ">
             <table className="w-full text-sm  dark:text-gray-400">
-              <tr className="dark:bg-gray-800 dark:border-gray-700  dark:hover:bg-gray-600">
+              <tr className="">
               <td className="p-2">
-                 <FontAwesomeIcon icon={faTruckMedical} className="text-black dark:text-white" size="4x" />
+                 <FontAwesomeIcon icon={faTruckMedical} className="text-black " size="4x" />
                 </td>
-                <td className="px-2 py-2 text-gray-900 dark:text-white">
-                  <h3 className="text-gray-900 dark:text-white text-xl font-extrabold ">Human Emergency</h3>
+                <td className="px-2 py-2 text-gray-900 ">
+                  <h3 className="text-gray-900  text-xl font-extrabold ">Human Emergency</h3>
                   <h1 className="font-semibold">Emergency ID: YBP207</h1>
                   <p>Located at the toilets at Fairlea oval – Please quote ID Number if you need to call Emergency Services (000)</p>
                 </td>

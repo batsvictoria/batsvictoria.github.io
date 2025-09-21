@@ -62,15 +62,15 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-red-300 dark:bg-gray-800 dark:border-gray-700 rounded-lg  md:p-6 mb-2 px-2 py-2">
+      <div className="bg-red-300  rounded-lg  md:p-6 mb-2 px-2 py-2">
         <div className="relative overflow-x-auto sm:rounded-lg">
           <table className="w-full text-sm text-left rtl:text-right dark:text-gray-400">
 
-            <tr className="dark:bg-gray-800 dark:border-gray-700  ">
+            <tr className="  ">
               <td className="p-4">
-                <FontAwesomeIcon icon={faExclamation} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
+                <FontAwesomeIcon icon={faExclamation} className="w-20 h-20 text-gray-800 " size="4x" />
               </td>
-              <td className="px-6 py-4 text-gray-900 dark:text-white">
+              <td className="px-6 py-4 text-gray-900 ">
                 <h6 className="text-md font-semibold">A very low pup or pups on the ground are in direct danger, may be compromised and/or susceptible to dog attack and will be treated as high priority.</h6>
               </td>
             </tr>

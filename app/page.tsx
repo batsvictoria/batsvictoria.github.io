@@ -17,7 +17,7 @@ const NavLink = ({title, description, url, icon }: { title: string, description:
             <Link href={url} className="flex items-center p-3 text-base  rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
               <FontAwesomeIcon icon={icon} className="text-gray-800 dark:text-white" size="2x" />
               <span className="flex-1 ms-3 whitespace-nowrap ">
-                <h2 className="font-bold text-gray-900 text-xl" >{title}</h2>
+                <h2 className="font-bold text-gray-900 dark:text-white text-xl" >{title}</h2>
                 <p className="italic">{description}</p>
               </span>
             </Link>
