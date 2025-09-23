@@ -14,8 +14,8 @@ export default function ContactItem({ name, url, icon, children }: { name: strin
                         </>
                     }
                     <span className="flex-1 ms-3 whitespace-nowrap ">
-                        <h2 className="font-bold text-gray-900 text-xl" >{name}</h2>
-                        <p className="italic">{children}</p>
+                        <h2 className="font-bold text-gray-900 text-xl dark:text-white" >{name}</h2>
+                        <p className="italic dark:text-gray-400">{children}</p>
                     </span>
                 </a>
             </li>

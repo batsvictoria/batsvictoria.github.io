@@ -17,8 +17,8 @@ export default function Page() {
       <Pagetitle>Important Contacts</Pagetitle>
 
       <div className="w-full  p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 mb-2">
-        <p className="text-md font-normal text-gray-500 dark:text-gray-400">For any enquiries, questions or concerns</p>
-        <ul className="my-4 space-y-3">
+        <p className="text-md  text-gray-500 dark:text-gray-400 font-semibold">For any enquiries, questions or concerns</p>
+        <ul className="my-4 space-y-3  ">
 
           <ContactItem name="Tamsyn" url="#" icon="" >Fly by Night</ContactItem> 
           <ContactItem name="Emma" url="#" icon="" >Fly by Night</ContactItem>
@@ -61,8 +61,8 @@ export default function Page() {
                <FontAwesomeIcon icon={faWhatsapp} className="text-black dark:text-white " size="4x" />
 
               <span className="flex-1 ms-3 whitespace-nowrap ">
-                <h2 className="font-bold text-gray-900 text-xl " >What&apos;s App  </h2>
-                <p className="italic">Bat Observation Chat</p>
+                <h2 className="font-bold text-gray-900 text-xl dark:text-white " >What&apos;s App  </h2>
+                <p className="italic dark:text-gray-400">Bat Observation Chat</p>
 
               </span>
             </a>

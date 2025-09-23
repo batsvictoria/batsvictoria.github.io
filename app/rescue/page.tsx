@@ -48,14 +48,14 @@ export default function Page() {
   <div className="relative sm:rounded-lg"><span><h2 className="text-gray-900 dark:text-white text-3xl font-extrabold m-3">How to Wrap</h2></span> </div>
              
               <img src={ImageBatWap1} alt="" className="flex-shrink-0" />
-              <ul className="max-w-md space-y-1 list-disc list-inside dark:text-gray-400 m-2 ">
+              <ul className="max-w-md space-y-1 list-disc list-inside dark:text-gray-400 m-2 text-md font-semibold">
 
                 <li>Open Wrap</li>
-                <li>Place dummy in mouth before or during wrapping process</li>
+                <li >Place dummy in mouth before or during wrapping process</li>
               </ul>
          <img src={ImageBatWap2} alt="" className="flex-shrink-0" />
 
-              <ul className="max-w-md space-y-1 list-disc list-inside dark:text-gray-400 m-2 ">
+              <ul className="max-w-md space-y-1 list-disc list-inside dark:text-gray-400 m-2 text-md font-semibold ">
                 <li>Place bats tummy on the stuffing side of the roll (Bat will grab on with feet like they
                   do with their mums)</li>
                 <li>Hold the baby in place gently but firmly, proceed to wrap around the body. (NB You can
@@ -76,7 +76,7 @@ export default function Page() {
                  alt="" 
                  className="flex-shrink-0  max-w-xs mx-auto rounded-lg" />
 
-              <ol className=" m-5 max-w-md space-y-1 list-decimal list-inside dark:text-gray-400">
+              <ol className=" text-md font-semibold max-w-md space-y-1 list-decimal list-inside dark:text-gray-400">
 
                 <li>Wrap in Bat Wrap </li>
                 <li>Dry Glucose = Place a large pinch of glucose powder & put in mouth</li>
