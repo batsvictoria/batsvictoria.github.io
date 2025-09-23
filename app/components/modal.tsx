@@ -29,7 +29,7 @@ export const Modal = () => {
                                 <button onClick={toggleItem} data-modal-hide="popup-modal" type="button" className="text-white bg-green-600 text-lg font-medium rounded-lg text-md inline-flex items-center px-5 py-2.5 text-center">
                                     Yes, I am.
                                 </button>
-                                <a href="/batapp/" data-modal-hide="popup-modal" type="button" className="py-2.5 px-5 ms-3 text-lg font-medium text-gray-900 bg-white rounded-lg border border-gray-200  dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600">
+                                <a href="/" data-modal-hide="popup-modal" type="button" className="py-2.5 px-5 ms-3 text-lg font-medium text-gray-900 bg-white rounded-lg border border-gray-200  dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600">
                                     No, I&apos;m Not</a>
                                 <p className=" mt-8 text-lg font-normal text-gray-500 dark:text-white">
                                     Vaccinated Rescuers:
