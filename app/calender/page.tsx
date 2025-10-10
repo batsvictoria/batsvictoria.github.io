@@ -114,11 +114,11 @@ export default function Page() {
                 <ul className="list-disc">
                   <li>Pup alone in tree, vocalizing, no adults around, no adults responding.</li>
                   <li> Condition check is critical here, look for:</li>
-                  <ul >
-                    <li>Is their call hoarse?</li>
-                    <li>Are they skinny?</li>
-                    <li>Eyes bright?</li>
-                    <li>How big are they?</li>
+                  <ul className="pl-5">
+                    <li>- Is their call hoarse?</li>
+                    <li>- Are they skinny?</li>
+                    <li>- Eyes bright?</li>
+                    <li>- How big are they?</li>
                   </ul>
                 </ul>
               </td>
@@ -126,11 +126,11 @@ export default function Page() {
               <td className="px-4 py-1 border-s ps-4 border-gray-400 text-sm">
                 <ul className="list-disc ">
                   <li>Pups will be alone in trees as they are learning to fly</li>
-                  <li> Condition check is critical here, look for:</li>
-                  <ul>
-                    <li>Is their call hoarse?</li>
-                    <li>How are they moving?</li>
-                    <li>Any Injuries?</li>
+                  <li > Condition check is critical here, look for:</li>
+                  <ul className="pl-5">
+                    <li>- Is their call hoarse?</li>
+                    <li>- How are they moving?</li>
+                    <li>- Any Injuries?</li>
                   </ul>
                 </ul>
               </td>
@@ -147,7 +147,7 @@ export default function Page() {
               <td className=" list-disc px-4 py-1 text-sm">
                 <td>
                   <li>Pup alone, not vocalizing and adults near by.</li>
-                  <li>Low in tree (mum may have accidentally dropped - monitor to make sure mum isn't trying to retrieve baby before intervention).</li>
+                  <li>Low in tree (mum may have accidentally dropped pup - monitor to make sure mum isn't trying to retrieve baby before intervention).</li>
                 </td>
               </td>
                {/* Nov-Dec*/}
