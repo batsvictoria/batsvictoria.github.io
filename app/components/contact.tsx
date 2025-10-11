@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import Image from "next/image";
+
 
 export default function ContactItem({ name, url, icon, children }: { name: string, url: string, icon: string, children: ReactNode }) {
     return (
