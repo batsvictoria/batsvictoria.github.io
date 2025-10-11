@@ -28,7 +28,7 @@ export default function Page() {
                 <p className="text-center text-sm">Pups maybe playing and fall. Please observe before rescue</p>
               </td>
 
-              <td className="ps-4 border-gray-400 text-centre">
+              <td className="p-2 border-gray-400 text-centre">
                 <div className=" flex justify-center items-center">
                    <FontAwesomeIcon icon={faMoon} className="text-black dark:text-white" size="3x" />
                 </div>
@@ -50,18 +50,18 @@ export default function Page() {
       <div className="relative  overflow-x-auto shadow-md sm:rounded-lg border-gray-200 border rounded-lg bg-white">
 
             <span><h2 className="text-gray-900  text-3xl font-extrabold mb-2 m-3">Pup Season</h2></span>
-        <table className="w-full text-sm text-left  dark:text-blue-100">
+        <table className="w-full text-sm  dark:text-blue-100">
           <tbody className=" text-white dark:text-white">
             <tr className="text-center align-top">
               <th scope="col" className="px-4 py-1  dark:text-white  ">
                 <h4 className="text-xl text-black" > Oct-Nov</h4>
                 <p className="text-gray-500 text-sm">Pups should be on mum for the 1st 4 weeks of their life.</p>
               </th>
-              <th scope="col" className=" border-s ps-4 border-gray-400 px-4 py-1  dark:text-white">
+              <th scope="col" className=" border-s  border-gray-400 px-4 py-1  dark:text-white">
                 <h4 className="text-xl text-black"> Nov-Dec</h4>
                 <p className="text-gray-500 text-sm">Mums will leave their babies in the tree for a break</p>
               </th>
-              <th scope="col" className=" border-s ps-4 border-gray-400 px-4 py-1  dark:text-white">
+              <th scope="col" className=" border-s border-gray-400 px-4 py-1  dark:text-white">
                 <h4 className="text-xl text-black"> Jan-Feb</h4>
                 <p className="text-gray-500 text-sm">Pups are learning to fly and will fly if approached.</p>
               </th>
@@ -77,7 +77,7 @@ export default function Page() {
               <td className=" list-disc px-4 py-1 text-sm">
                 <td>
                   <li>Small pup (size of hand) on ground.</li>
-                  <li>Pup low in tree, vocalising, no adults around, no adults responding.</li>
+                  <li>Pup low in tree, vocalizing, no adults around, no adults responding.</li>
                 </td>
               </td>
               {/* Nov-Dec*/}
@@ -107,14 +107,14 @@ export default function Page() {
             <tr className="bg-orange-300 text-black border-b align-top ">
               <td className="px-4 py-1 text-sm">
 
-                <li>Pup alone and vocalising, with NO ADULTS around.</li>
+                <li>Pup alone and vocalizing, with NO ADULTS around.</li>
               </td>
 {/* Nov-Dec*/}
               <td className="px-4 py-1 border-s ps-4 border-gray-400 text-sm">
                 <ul className="list-disc">
                   <li>Pup alone in tree, vocalizing, no adults around, no adults responding.</li>
                   <li> Condition check is critical here, look for:</li>
-                  <ul className="pl-5">
+                  <ul >
                     <li>- Is their call hoarse?</li>
                     <li>- Are they skinny?</li>
                     <li>- Eyes bright?</li>
@@ -127,7 +127,7 @@ export default function Page() {
                 <ul className="list-disc ">
                   <li>Pups will be alone in trees as they are learning to fly</li>
                   <li > Condition check is critical here, look for:</li>
-                  <ul className="pl-5">
+                  <ul>
                     <li>- Is their call hoarse?</li>
                     <li>- How are they moving?</li>
                     <li>- Any Injuries?</li>
@@ -158,7 +158,7 @@ export default function Page() {
                 </td>
               </td>
               {/* Jan-Feb*/}
-              <td className="list-disc px-4 py-1 border-s ps-3 border-gray-400 text-sm">
+              <td className="list-disc px-4 py-1 border-s ps-4 border-gray-400 text-sm">
                 <li>Pup alone, not vocalizing and adults near by </li>
              
                 <li> <p className="font-bold underline text-red-600">Experienced rescuers only!</p>

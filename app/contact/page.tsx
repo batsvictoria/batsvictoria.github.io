@@ -20,9 +20,9 @@ export default function Page() {
         <p className="text-md  text-gray-500 dark:text-gray-400 font-semibold">For any enquiries, questions or concerns</p>
         <ul className="my-4 space-y-3  ">
 
-          <ContactItem name="Tamsyn" url="#" icon="" >Fly by Night</ContactItem> 
-          <ContactItem name="Emma" url="#" icon="" >Fly by Night</ContactItem>
-          <ContactItem name="Megan" url="#" icon="">Friends of Bats & Bushcare</ContactItem>
+          <ContactItem name="Tamsyn" url="#" icon="/images/flybynight_logo_fromwebsite_nobg.png" >Fly by Night <li className="text-xs">click to copy number</li></ContactItem> 
+          <ContactItem name="Emma" url="#" icon="/images/flybynight_logo_fromwebsite_nobg.png" >Fly by Night<li className="text-xs">click to copy number</li></ContactItem>
+          <ContactItem name="Megan" url="#" icon="/images/FOBB_logo_nobg.png">Friends of Bats & Bushcare</ContactItem>
 
           {/* 
           <li>
@@ -57,12 +57,13 @@ export default function Page() {
         */}
 
           <li>
-            <a href="#" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+            <a  className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50  dark:bg-gray-600  dark:text-white">
                <FontAwesomeIcon icon={faWhatsapp} className="text-black dark:text-white " size="4x" />
 
               <span className="flex-1 ms-3 whitespace-nowrap ">
                 <h2 className="font-bold text-gray-900 text-xl dark:text-white " >What&apos;s App  </h2>
-                <p className="italic dark:text-gray-400">Bat Observation Chat</p>
+                <p className="italic dark:text-gray-400">Bat Observation Chat </p>
+                <p className="text-xs italic">Contact Tamsyn for invite</p>
 
               </span>
             </a>

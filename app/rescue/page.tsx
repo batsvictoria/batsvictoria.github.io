@@ -10,8 +10,8 @@ import { faClock} from "@fortawesome/free-solid-svg-icons";
 
 
 
-const ImageBatWap1 = '/images/bat_wrap-01-2.png';
-const ImageBatWap2 = '/images/bat_wrap_2.png';
+const ImageBatWap1 = '/images/bat_wrap_images_1.png';
+const ImageBatWap2 = '/images/bat_wrap_images_2.png';
 const ImageRecuedBat = '/images/bat_in_towel.jpg';
 
 export default function Page() {
