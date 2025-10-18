@@ -6,7 +6,7 @@ import Link from "next/link"
 export function FooterButton({ name, route, icon }: { name: string, route: string, icon: IconDefinition }) {
     return (
         <>
-            <Link href={route} className="inline-flex flex-col items-center justify-center px-1 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+            <Link href={route} className="inline-flex flex-col items-center justify-center px-1 group">
                 <FontAwesomeIcon icon={icon} className="text-gray-800  fa-2xl" />
                 <span className="text-sm text-gray-500   ">{name}</span>
             </Link >
