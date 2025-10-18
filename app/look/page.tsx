@@ -18,27 +18,27 @@ export default function Page() {
 
       <Pagetitle>What to Look For</Pagetitle>
 
-      <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-3 md:p-8 mb-2">
+      <div className="bg-gray-50  border border-gray-200  rounded-lg p-3 md:p-8 mb-2">
         <div className="relative overflow-x-auto sm:rounded-lg">
           
-          <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
 
             <tbody>
-              <tr className="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200  ">
+              <tr className="border-b   border-gray-200  ">
                 <td className="pl-6">
-                  <FontAwesomeIcon icon={faEye} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
+                  <FontAwesomeIcon icon={faEye} className="w-20 h-20 text-gray-800 " size="4x" />
                 </td>
-                <td className="px-6 py-4 text-gray-900 dark:text-white">
+                <td className="px-6 py-4 text-gray-900 ">
                   <h1 className="font-semibold text-2xl ">Look</h1>
                   <p>Look for pups away from their mother or pups low in trees.</p>
                 </td>
               </tr>
     
-              <tr className="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 ">
+              <tr className="border-b   border-gray-200 ">
                 <td className="pl-6">
-                  <FontAwesomeIcon icon={faHeadphones} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
+                  <FontAwesomeIcon icon={faHeadphones} className="w-20 h-20 text-gray-800 " size="4x" />
                 </td>
-                <td className="px-6 py-4 text-gray-900 dark:text-white">
+                <td className="px-6 py-4 text-gray-900 ">
                   <h6 className="font-semibold text-2xl ">Listen</h6>
                   <p>Listen for high pitched crying/chirping sounds</p>
                   <h6 className="font-semibold italic">Listen to baby bat cry</h6>
@@ -46,12 +46,12 @@ export default function Page() {
                 </td>
               </tr>
 
-              <tr className=" dark:bg-gray-800 dark:border-gray-700 border-gray-200 ">
+              <tr className="   border-gray-200 ">
                 <td className="pl-6">
-                  <FontAwesomeIcon icon={faClock} className="w-20 h-20 text-gray-800 dark:text-white" size="4x" />
+                  <FontAwesomeIcon icon={faClock} className="w-20 h-20 text-gray-800 " size="4x" />
                 </td>
 
-                <td className="px-6 py-4 text-gray-900 dark:text-white">
+                <td className="px-6 py-4 text-gray-900 ">
                   <h6 className="font-semibold text-2xl ">Alone for a long period</h6>
                   (Note the location and check on way out)
                 </td>
@@ -64,7 +64,7 @@ export default function Page() {
 
       <div className="bg-red-300  rounded-lg  md:p-6 mb-2 px-2 py-2">
         <div className="relative overflow-x-auto sm:rounded-lg">
-          <table className="w-full text-sm text-left rtl:text-right dark:text-gray-400">
+          <table className="w-full text-sm text-left rtl:text-right ">
 
             <tr className="  ">
               <td className="p-4">
@@ -83,14 +83,14 @@ export default function Page() {
     
 
 
-       <span><h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mt-5 ms-3">Questions to Consider</h2></span>
+       <span><h2 className="text-gray-900  text-3xl font-extrabold mt-5 ms-3">Questions to Consider</h2></span>
 
       <table>
         <tbody>
 
-          <tr className="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+          <tr className="border-b   border-gray-200">
 
-            <td className="px-6 py-4 text-gray-900 dark:text-white">
+            <td className="px-6 py-4 text-gray-900 ">
    <ul className="pl-5 list-disc">
             <li>Age: How big is it (ie size of your hand? Bigger?)</li>
             <li>Condition:</li>

@@ -11,30 +11,30 @@ export default function Page() {
     <>
 
 
-      <span><h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2 m-3">Bat Calendar</h2></span>
+      <span><h2 className="text-gray-900  text-3xl font-extrabold mb-2 m-3">Bat Calendar</h2></span>
 
 
-      <div className="w-full p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 mb-2">
+      <div className="w-full p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6   mb-2">
 
 
           <tbody>
             <tr>
               <td className=" p-2">
                 <div className=" flex justify-center items-center">
-                  <FontAwesomeIcon icon={faSun} className="text-black dark:text-white" size="3x" />
+                  <FontAwesomeIcon icon={faSun} className="text-black " size="3x" />
                 </div>
 
-                <h2 className="text-gray-900 dark:text-white text-2xl mb-2 text-center font-bold"> Morning</h2>
+                <h2 className="text-gray-900  text-2xl mb-2 text-center font-bold"> Morning</h2>
                 <p className="text-center text-sm">Pups maybe playing and fall. Please observe before rescue</p>
               </td>
 
               <td className="p-2 border-gray-400 text-centre">
                 <div className=" flex justify-center items-center">
-                   <FontAwesomeIcon icon={faMoon} className="text-black dark:text-white" size="3x" />
+                   <FontAwesomeIcon icon={faMoon} className="text-black " size="3x" />
                 </div>
 
 
-                <h2 className="text-gray-900 dark:text-white text-2xl mb-2 text-center font-bold "> After 5pm</h2>
+                <h2 className="text-gray-900  text-2xl mb-2 text-center font-bold "> After 5pm</h2>
                 <p className="text-center text-sm">Mums will crèche pups. please don’t remove without advice</p>
               </td>
             </tr>
@@ -50,18 +50,18 @@ export default function Page() {
       <div className="relative  overflow-x-auto shadow-md sm:rounded-lg border-gray-200 border rounded-lg bg-white">
 
             <span><h2 className="text-gray-900  text-3xl font-extrabold mb-2 m-3">Pup Season</h2></span>
-        <table className="w-full text-sm  dark:text-blue-100">
-          <tbody className=" text-white dark:text-white">
+        <table className="w-full text-sm  ">
+          <tbody className=" text-white ">
             <tr className="text-center align-top">
-              <th scope="col" className="px-4 py-1  dark:text-white  ">
+              <th scope="col" className="px-4 py-1    ">
                 <h4 className="text-xl text-black" > Oct-Nov</h4>
                 <p className="text-gray-500 text-sm">Pups should be on mum for the 1st 4 weeks of their life.</p>
               </th>
-              <th scope="col" className=" border-s  border-gray-400 px-4 py-1  dark:text-white">
+              <th scope="col" className=" border-s  border-gray-400 px-4 py-1  ">
                 <h4 className="text-xl text-black"> Nov-Dec</h4>
                 <p className="text-gray-500 text-sm">Mums will leave their babies in the tree for a break</p>
               </th>
-              <th scope="col" className=" border-s border-gray-400 px-4 py-1  dark:text-white">
+              <th scope="col" className=" border-s border-gray-400 px-4 py-1  ">
                 <h4 className="text-xl text-black"> Jan-Feb</h4>
                 <p className="text-gray-500 text-sm">Pups are learning to fly and will fly if approached.</p>
               </th>

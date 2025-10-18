@@ -34,7 +34,7 @@ export default function Page() {
     <>
 
       <Pagetitle>Locations</Pagetitle>
-      <div className="w-full p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 mb-2">
+      <div className="w-full p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6   mb-2">
 
         <Pagetitle>Interactive Map</Pagetitle>
         <div className="grid grid-cols-2 gap-4 xl:grid-cols-4">
@@ -52,7 +52,7 @@ export default function Page() {
           </div>
         </div>
      
-        <div className="w-full p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 dark:bg-gray-800 dark:border-gray-700 mb-2">
+        <div className="w-full p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6   mb-2">
           <Pagetitle>Interactive Map</Pagetitle>
           <div className="grid grid-cols-2 gap-4 xl:grid-cols-4">
             <div className="col-span-full">

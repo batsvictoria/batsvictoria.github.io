@@ -21,19 +21,19 @@ export default function Page() {
 
       
 
-        <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-3 md:p-8 mb-2">
+        <div className="bg-gray-50  border border-gray-200  rounded-lg p-3 md:p-8 mb-2">
               <div className="relative overflow-x-auto sm:rounded-lg">
                 
-                <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
       
                   <tbody>
-                    <tr className="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200  ">
+                    <tr className="border-b   border-gray-200  ">
                       <td className="pl-6">
-                    <FontAwesomeIcon icon={faCamera} className="text-black dark:text-white" size="4x" />
+                    <FontAwesomeIcon icon={faCamera} className="text-black " size="4x" />
 
       
                       </td>
-                      <td className="px-6 py-4 text-gray-900 dark:text-white">
+                      <td className="px-6 py-4 text-gray-900 ">
                         <h1 className="font-semibold text-2xl ">1. Take a Photo.</h1>
            
           
@@ -46,11 +46,11 @@ export default function Page() {
                       </td>
                     </tr>
       
-                    <tr className=" dark:bg-gray-800 dark:border-gray-700  ">
+                    <tr className="    ">
                       <td className="pl-6">
-                    <FontAwesomeIcon icon={faLocationDot} className="text-black dark:text-white" size="4x" />
+                    <FontAwesomeIcon icon={faLocationDot} className="text-black " size="4x" />
                       </td>
-                      <td className="px-6 py-4 text-gray-900 dark:text-white">
+                      <td className="px-6 py-4 text-gray-900 ">
                         <h6 className="font-semibold text-2xl ">2. Record the Location</h6>
                         <p>Pin drop the location</p>
                     
