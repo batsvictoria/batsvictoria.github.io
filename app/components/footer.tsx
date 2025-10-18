@@ -8,7 +8,7 @@ export function FooterButton({ name, route, icon }: { name: string, route: strin
         <>
             <Link href={route} className="inline-flex flex-col items-center justify-center px-1 hover:bg-gray-50 dark:hover:bg-gray-800 group">
                 <FontAwesomeIcon icon={icon} className="text-gray-800  fa-2xl" />
-                <span className="text-sm text-gray-500  group-hover:text-blue-600 :text-blue-500">{name}</span>
+                <span className="text-sm text-gray-500   ">{name}</span>
             </Link >
         </>
     )
