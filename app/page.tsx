@@ -41,7 +41,7 @@ export default function Page() {
           <NavLink title="Locations" description="Location Terminology" url="/locations" icon={faLocationDot} />
           <NavLink title="What to Look for" description="Sights and Sounds" url="/look" icon={faEye} />
           <NavLink title="Rescue and Wrap" description="Vaxxed rescuers only" url="/rescue" icon={faBriefcaseMedical} />
-          <NavLink title="Calender" description="Important dates and bat behaviour" url="/calender" icon={faCalendarDays} />
+          <NavLink title="Calendar" description="Important dates and bat behaviour" url="/calender" icon={faCalendarDays} />
           <NavLink title="Report Non-Urgent Bats" description="How to report inc. Deceased" url="/report" icon={faFlag} />
           <NavLink title="Important Contacts" description="For any questions or concerns" url="/contact" icon={faPhone} />
         </ul>
