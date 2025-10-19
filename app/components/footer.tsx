@@ -27,7 +27,7 @@ export default function Footer() {
 
 
 
-            <div className="fixed bottom-0 left-0 z-70 w-full h-20 bg-gray-900 border-t   md:items-center md:justify-between md:p-6   ">
+            <div className="fixed bottom-0 left-0 z-70 w-full h-20 bg-gray-900 border-t border-gray-600   md:items-center md:justify-between md:p-6   ">
                 <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
 
                     <FooterButton name="Home" route="/" icon={faHome} />
