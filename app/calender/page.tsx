@@ -99,7 +99,7 @@ export default function Page() {
 
 
 
-            <tr className="bg-orange-500 border-b text-center">
+            <tr className="bg-orange-500  text-center">
               <td colSpan={3} className="text-lg font-bold">URGENT</td>
             </tr>
 
@@ -137,7 +137,7 @@ export default function Page() {
 
             </tr>
 
-            <tr className="bg-blue-500 border-b text-center">
+            <tr className="bg-blue-500  text-center">
               <td colSpan={3} className="text-lg font-bold">NON-URGENT</td>
             </tr>
 
