@@ -18,7 +18,7 @@ const LocationPin = ({name, color }: { name: string, color: string }) => {
   return (
     <>
       <div className="col-span-1 grid grid-cols-4   align-top">
-          <FontAwesomeIcon icon={faLocationDot} size="3x" className={color} />
+          <FontAwesomeIcon icon={faLocationDot} size="2x" className={color} />
           <span className="text-sm font-semibold col-span-3">
             {name}
           </span>
