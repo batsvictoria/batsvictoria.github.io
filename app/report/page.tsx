@@ -21,15 +21,15 @@ export default function Page() {
 
       
 
-        <div className="bg-gray-50  border border-gray-200  rounded-lg p-3 md:p-8 mb-2">
+        <div className="  rounded-lg p-3 md:p-8 mb-2">
               <div className="relative overflow-x-auto sm:rounded-lg">
                 
-                <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
+                <table className="w-full text-sm text-left rtl:text-right  ">
       
                   <tbody>
-                    <tr className="border-b   border-gray-200  ">
+                    <tr className=" ">
                       <td className="pl-6">
-                    <FontAwesomeIcon icon={faCamera} className="text-black " size="4x" />
+                    <FontAwesomeIcon icon={faCamera} className=" " size="4x" />
 
       
                       </td>
@@ -48,9 +48,9 @@ export default function Page() {
       
                     <tr className="    ">
                       <td className="pl-6">
-                    <FontAwesomeIcon icon={faLocationDot} className="text-black " size="4x" />
+                    <FontAwesomeIcon icon={faLocationDot} className=" " size="4x" />
                       </td>
-                      <td className="px-6 py-4 text-gray-900 ">
+                      <td className="px-6 py-4  ">
                         <h6 className="font-semibold text-2xl ">2. Record the Location</h6>
                         <p>Pin drop the location</p>
                     

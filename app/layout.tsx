@@ -43,7 +43,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en" dir="ltr">
       <head>
       </head>
-      <body className="bg-white  text-black ">
+      <body className="bg-gray-600 text-gray-900 ">
         <div className="grid grid-cols-6">
           <div className="col-span-6 md:col-span-4 md:col-start-2">
             {children}

@@ -16,13 +16,13 @@ export default function Page() {
 
       <Pagetitle>Important Contacts</Pagetitle>
 
-      <div className="w-full  p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6   mb-2">
-        <p className="text-md  text-gray-500  font-semibold">For any enquiries, questions or concerns</p>
+      <div className="w-full  p-4 0  sm:p-6   mb-2">
+        <p className="text-md  text-gray-900  font-semibold">For any enquiries, questions or concerns</p>
         <ul className="my-4 space-y-3  ">
 
-          <ContactItem name="Tamsyn" url="#" icon="/images/flybynight_logo_fromwebsite_nobg.png" >Fly by Night <li className="text-xs">click to copy number</li></ContactItem> 
-          <ContactItem name="Emma" url="#" icon="/images/flybynight_logo_fromwebsite_nobg.png" >Fly by Night<li className="text-xs">click to copy number</li></ContactItem>
-          <ContactItem name="Megan" url="#" icon="/images/FOBB_logo_nobg.png">Friends of Bats & Bushcare</ContactItem>
+          <ContactItem name="Tamsyn" url="#" icon="/images/bat_logo-02.svg" >Fly by Night <li className="text-xs">click to copy number</li></ContactItem> 
+          <ContactItem name="Emma" url="#" icon="/images/bat_logo-02.svg" >Fly by Night<li className="text-xs">click to copy number</li></ContactItem>
+          <ContactItem name="Megan" url="#" icon="/images/bat_logo-01.svg">Friends of Bats & Bushcare</ContactItem>
 
           {/* 
           <li>
@@ -57,13 +57,13 @@ export default function Page() {
         */}
 
           <li>
-            <a  className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50    ">
-               <FontAwesomeIcon icon={faWhatsapp} className="text-black  " size="4x" />
+            <a  className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-900    ">
+               <FontAwesomeIcon icon={faWhatsapp} className="text-gray-200  " size="4x" />
 
               <span className="flex-1 ms-3 whitespace-nowrap ">
-                <h2 className="font-bold text-gray-900 text-xl  " >What&apos;s App  </h2>
-                <p className="italic ">Bat Observation Chat </p>
-                <p className="text-xs italic">Contact Tamsyn for invite</p>
+                <h2 className="font-bold text-gray-200 text-xl  " >What&apos;s App  </h2>
+                <p className="italic text-gray-200">Bat Observation Chat </p>
+                <p className="text-xs italic text-gray-200">Contact Tamsyn for invite</p>
 
               </span>
             </a>
@@ -78,12 +78,12 @@ export default function Page() {
       </div>
 
 
-<div className="w-full p-4 mb-4  border border-gray-200 rounded-lg shadow-sm sm:p-6  bg-yellow-200">
+<div className="w-full p-4 mb-4   sm:p-6  bg-yellow-200">
       <div className="grid  gap-8 ">
             <table className="w-full text-sm  ">
               <tr className="">
               <td className="p-2">
-              <FontAwesomeIcon icon={faTruckMedical} className="text-black " size="4x" />
+              <FontAwesomeIcon icon={faTruckMedical} className=" " size="4x" />
                 </td>
                 <td className="px-2 py-2 text-gray-900 ">
                   <h3 className="text-gray-900  text-xl font-extrabold ">Human Emergency</h3>
@@ -94,8 +94,8 @@ export default function Page() {
             </table>
         </div>
         </div>
-      <span className="block text-sm text-gray-500 text-center align-bottom "> ©2025 Fly By Night & FOBB</span>
-      <span className="block text-xs text-gray-500 text-center align-bottom "> <a href="https://kimberleylawrence.com/">App built by KLD</a></span>
+      <span className="block text-sm  text-center align-bottom "> ©2025 Fly By Night & FOBB</span>
+      <span className="block text-xs  text-center align-bottom "> <a href="https://kimberleylawrence.com/">App built by KLD</a></span>
 
     </>
   )

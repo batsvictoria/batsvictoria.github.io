@@ -21,7 +21,7 @@ export default function Page() {
 
       <Modal />
       <Pagetitle>Rescue and Wraps</Pagetitle>
-<div className="w-full p-4 bg-red-300 border border-gray-200 rounded-lg shadow-sm sm:p-6  mb-2">
+<div className="w-full p-4 bg-red-300 sm:p-6  mb-2">
  
         <div className="relative overflow-x-auto sm:rounded-lg">
           <table className="w-full text-sm text-left rtl:text-right ">
@@ -29,10 +29,10 @@ export default function Page() {
             <tbody>
             <tr className="">
               <td className="p-1">
-                <FontAwesomeIcon icon={faClock} className="w-20 h-20 text-gray-800 " size="4x" />
+                <FontAwesomeIcon icon={faClock} className="w-20 h-20  " size="4x" />
 
               </td>
-              <td className="px-6 py-4 text-gray-900 ">
+              <td className="px-6 py-4  ">
                 <h6 className="text-md">Being Vaccinated does <u>NOT</u> mean you should rescue. <strong className="font-semibold">Minimum 24hr monitoring should occur before any intervention for Non-Urgent cases.</strong></h6>
               </td>
             </tr>
@@ -41,11 +41,11 @@ export default function Page() {
         </div>
  </div>
 
-      <section className="bg-white ">
+      <section className=" ">
         <div className=" mx-auto max-w-screen-xl ">
           <div className="grid ">
-            <div className="bg-gray-50  border border-gray-200  rounded-lg mb-5 md:p-12">
-  <div className="relative sm:rounded-lg"><span><h2 className="text-gray-900  text-3xl font-extrabold m-3">How to Wrap</h2></span> </div>
+            <div className=" rounded-lg mb-5 md:p-12">
+  <div className="relative sm:rounded-lg"><span><h2 className="  text-3xl font-extrabold m-3">How to Wrap</h2></span> </div>
              
               <img src={ImageBatWap1} alt="" className="flex-shrink-0" />
               <ul className="max-w-md space-y-1 list-disc list-inside  m-2 text-md font-semibold">
@@ -65,18 +65,18 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="w-full p-4 bg-green-300 border border-gray-200 rounded-lg shadow-sm sm:p-6   mb-2">
+        <div className="w-full  sm:p-6   mb-2">
 
          
             
-<div className="relative sm:rounded-lg"><span><h2 className="text-gray-900  text-3xl font-extrabold m-3">After Rescue/Post Retrieval</h2></span> </div>
+<div className="relative sm:rounded-lg"><span><h2 className="  text-3xl font-extrabold m-3">After Rescue/Post Retrieval</h2></span> </div>
             
               <img
                  src={ImageRecuedBat} 
                  alt="" 
                  className="flex-shrink-0  max-w-xs mx-auto rounded-lg" />
 
-              <ol className=" text-md font-semibold max-w-md space-y-1 list-decimal list-inside ">
+              <ol className=" text-md font-semibold max-w-md space-y-1 list-decimal list-inside p-4 ">
 
                 <li>Wrap in Bat Wrap </li>
                 <li>Dry Glucose = Place a large pinch of glucose powder & put in mouth</li>

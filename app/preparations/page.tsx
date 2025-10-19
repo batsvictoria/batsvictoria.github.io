@@ -20,38 +20,38 @@ export default function Page() {
       <Pagetitle>Preparations</Pagetitle>
 
 
-        <div className="bg-gray-50  border border-gray-200  rounded-lg p-3 md:p-8 mb-2">
+        <div className="  rounded-lg p-3 md:p-8 mb-2">
               <div className="relative overflow-x-auto sm:rounded-lg">
                 
-                <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
+                <table className="w-full text-sm text-left rtl:text-right ">
       
                   <tbody>
-                    <tr className="border-b   border-gray-200  ">
+                    <tr className="  border-gray-900  ">
                       <td className="pl-6">
-                        <FontAwesomeIcon icon={faUserGroup} className="text-black " size="4x" />     
+                        <FontAwesomeIcon icon={faUserGroup} className=" " size="4x" />     
                       </td>
-                      <td className="px-6 py-4 text-gray-900 ">
+                      <td className="px-6 py-4  ">
                         <h1 className="font-semibold text-2xl ">Pair Up</h1>
                         <p>Go in Pairs or let someone know you are going to check camp.</p>
                       </td>
                     </tr>
       
-                    <tr className="border-b   border-gray-200 ">
+                    <tr className=" border-gray-900 ">
                       <td className="pl-6">
-                        <FontAwesomeIcon icon={faVolumeMute} className="text-black " size="4x" />
+                        <FontAwesomeIcon icon={faVolumeMute} className=" " size="4x" />
                       </td>
-                      <td className="px-6 py-4 text-gray-900 ">
+                      <td className="px-6 py-4  ">
                         <h6 className="font-semibold text-2xl ">Be Quiet</h6>
                         <p>Please be quiet and walk slowly through camp.</p>
                    
                       </td>
                     </tr>
       
-                    <tr className="   border-gray-200 ">
+                    <tr className="   border-gray-900 ">
                       <td className="pl-6">
-                                               <FontAwesomeIcon icon={faPersonHiking} className="text-black " size="4x" />
+                                               <FontAwesomeIcon icon={faPersonHiking} className="" size="4x" />
                       </td>
-                      <td className="px-6 py-4 text-gray-900 ">
+                      <td className="px-6 py-4  ">
                         <h6 className="font-semibold text-2xl ">Walk On Path</h6>
                         ALWAYS stay on path - please do not go under the camp of bats.
                       </td>
@@ -68,15 +68,15 @@ export default function Page() {
 
 
 
-<div className="w-full p-4 mb-4 border border-gray-200 rounded-lg shadow-sm sm:p-6   bg-yellow-200">
+<div className="w-full p-4 mb-2   sm:p-6   bg-yellow-200">
       <div className="grid  gap-8 ">
             <table className="w-full text-sm  ">
               <tr className="">
               <td className="p-2">
-                 <FontAwesomeIcon icon={faTruckMedical} className="text-black " size="4x" />
+                 <FontAwesomeIcon icon={faTruckMedical} className=" " size="4x" />
                 </td>
-                <td className="px-2 py-2 text-gray-900 ">
-                  <h3 className="text-gray-900  text-xl font-extrabold ">Human Emergency</h3>
+                <td className="px-2 py-2  ">
+                  <h3 className="  text-xl font-extrabold ">Human Emergency</h3>
                   <h1 className="font-semibold">Emergency ID: YBP207</h1>
                   <p>Located at the toilets at Fairlea oval – Please quote ID Number if you need to call Emergency Services (000)</p>
                 </td>
@@ -86,8 +86,8 @@ export default function Page() {
         </div>
         
         
-<div className="w-full p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6  ">
-      <span><h2 className="text-gray-900  text-3xl font-extrabold mb-3 m-3">Equipment </h2></span>
+      <div className="w-full p-3 mb-2 rounded-lg  sm:p-6  ">
+      <span><h2 className="  text-3xl font-extrabold mb-3 ">Equipment </h2></span>
       <div className="grid  gap-8 grid-cols-1 md:grid-cols-2">
 
         <div className="col-span-1">
@@ -123,9 +123,9 @@ export default function Page() {
       <table>
         <tbody>
 
-          <tr className="border-b   border-gray-200 ">
+          <tr className="    ">
 
-            <td className="px-6 py-4 text-gray-900 ">
+            <td className="px-6 py-4  ">
 
                 <ul className="list-disc">
                   <li><p className="text-red-500 font-bold underline" >ALL RESCUERS MUST BE VACCINATED </p></li>
