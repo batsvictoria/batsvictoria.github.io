@@ -6,7 +6,7 @@ export default function Batnoise() {
 
 
         <>
-            <audio controls className="inline-flex h-12 w-35 ">
+            <audio controls className="inline-flex h-12 w-50 ">
                 <source src={AudioBat} type="audio/wav" />
                 Your browser does not support the audio element.
             </audio>
