@@ -62,7 +62,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-red-300   md:p-6 mb-2 px-2 py-2">
+      <div className="bg-red-300 text-gray-200   md:p-6 mb-2 px-2 py-2">
         <div className="relative overflow-x-auto sm:rounded-lg">
           <table className="w-full text-sm text-left rtl:text-right ">
 

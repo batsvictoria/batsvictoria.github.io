@@ -21,7 +21,7 @@ export default function Page() {
 
       <Modal />
       <Pagetitle>Rescue and Wraps</Pagetitle>
-<div className="w-full p-4 bg-red-300 sm:p-6  mb-2">
+<div className="w-full p-4 bg-red-300 sm:p-6  mb-2 text-gray-200">
  
         <div className="relative overflow-x-auto sm:rounded-lg">
           <table className="w-full text-sm text-left rtl:text-right ">

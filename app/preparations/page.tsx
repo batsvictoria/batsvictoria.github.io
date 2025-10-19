@@ -90,7 +90,7 @@ export default function Page() {
       <span><h2 className="  text-3xl font-extrabold mb-3 ">Equipment </h2></span>
       <div className="grid  gap-8 grid-cols-1 md:grid-cols-2">
 
-        <div className="col-span-1">
+        <div className="col-span-1 pl-3">
           <h2 className=" text-xl font-bold"> Observing</h2>
           <ul className="list-disc p-3">
             <li>Binoculars</li>
@@ -103,7 +103,7 @@ export default function Page() {
           </ul>
         </div>
 
-        <div className="col-span-1">
+        <div className="col-span-1 pl-3">
           <h2 className=" text-xl font-bold"> Rescuing</h2>
           <ul className="list-disc p-3">
             <li>Water - preboiled preferred</li>

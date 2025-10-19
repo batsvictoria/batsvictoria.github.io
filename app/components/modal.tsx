@@ -24,7 +24,7 @@ export const Modal = () => {
                         <div className="relative bg-gray-600 rounded-lg shadow-sm ">
 
                             <div className="p-4 md:p-5 text-center">
-                                <FontAwesomeIcon icon={faCircleExclamation} className="w-20 h-20 text-red-500 " size="4x" />
+                                <FontAwesomeIcon icon={faCircleExclamation} className="w-20 h-20 text-red-300 " size="4x" />
                                 <h3 className="mb-5 text-lg font-normal  ">Are you vaccinated and trained for bat rescues?</h3>
                                 <button onClick={toggleItem} data-modal-hide="popup-modal" type="button" className="text-gray-200 bg-gray-900 text-lg font-medium rounded-lg text-md inline-flex items-center px-5 py-2.5 text-center">
                                     Yes, I am.

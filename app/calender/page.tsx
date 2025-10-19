@@ -53,7 +53,7 @@ export default function Page() {
         <table className="w-full text-sm  ">
           <tbody className=" text-gray-200 ">
             <tr className="text-center align-top">
-              <th scope="col" className="px-4 py-1    ">
+              <th scope="col" className="px-4  py-1    ">
                 <h4 className="text-xl text-gray-900" > Oct-Nov</h4>
                 <p className="text-gray-900 text-sm">Pups should be on mum for the 1st 4 weeks of their life.</p>
               </th>
@@ -72,7 +72,7 @@ export default function Page() {
               <td colSpan={3} className="text-lg font-bold">CRITICAL</td>
             </tr>
 {/* Oct-Nov*/}
-            <tr className="bg-red-300 text-gray-900  align-top ">
+            <tr className="bg-red-200 text-gray-900  align-top ">
 
               <td className=" list-disc px-4 py-1 text-sm font-semibold">
                 <td>
@@ -110,7 +110,7 @@ export default function Page() {
                 <li>Pup alone and vocalizing, with NO ADULTS around.</li>
               </td>
 {/* Nov-Dec*/}
-              <td className="px-4 py-1 border-s pr-2 border-gray-900 text-sm font-semibold">
+              <td className=" border-s ps-4 px-4 py-1 border-gray-900 text-sm font-semibold">
                 <ul className="list-disc">
                   <li>Pup alone in tree, vocalizing, no adults around, no adults responding.</li>
                   <li> Condition check is critical here, look for:</li>
@@ -123,7 +123,7 @@ export default function Page() {
                 </ul>
               </td>
                {/* Jan-Feb*/}
-              <td className="px-4 py-1 border-s ps-4 border-gray-900 text-sm">
+              <td className=" border-s ps-4 px-4 py-1 border-gray-900 text-sm">
                 <ul className="list-disc ">
                   <li>Pups will be alone in trees as they are learning to fly</li>
                   <li > Condition check is critical here, look for:</li>
