@@ -17,11 +17,28 @@ export default function Page() {
       <Pagetitle>Important Contacts</Pagetitle>
 
       <div className="w-full  p-4 0  sm:p-6   mb-2">
-        <p className="text-md  text-gray-900  font-semibold">For any enquiries, questions or concerns</p>
+        <p className="text-md  text-gray-900  font-semibold">Call or contact via What's App for any enquiries, questions or concerns</p>
         <ul className="my-4 space-y-3  ">
 
-          <ContactItem name="Tamsyn" url="#" icon="/images/bat_logo-02.svg" >Fly by Night <li className="text-xs">click to copy number</li></ContactItem> 
-          <ContactItem name="Emma" url="#" icon="/images/bat_logo-02.svg" >Fly by Night<li className="text-xs">click to copy number</li></ContactItem>
+          <ContactItem name="Tamsyn" url="#" icon="/images/bat_logo-02.svg"  >
+            <a href="tel:0419170286"> 
+              <p className="italic text-sm "> Fly by Night</p>
+              <li className="text-md">0409 530 541</li>
+          
+              </a>
+          </ContactItem> 
+          <ContactItem name="Emma" url="#" icon="/images/bat_logo-02.svg" >
+            <a href="tel:0491101148"> 
+              <p className="italic text-sm "> Fly by Night</p>
+              <li className="text-md">0491 101 148</li>
+        
+              </a></ContactItem>
+          <ContactItem name="Brooke" url="#" icon="/images/bat_logo-02.svg" >
+               <a href="tel:0419170286"> 
+              <p className="italic text-sm "> Fly by Night</p>
+              <li className="text-md">0423 131 581</li>
+              
+              </a></ContactItem>
           <ContactItem name="Megan" url="#" icon="/images/bat_logo-01.svg">Friends of Bats & Bushcare</ContactItem>
 
           {/* 
@@ -62,7 +79,7 @@ export default function Page() {
 
               <span className="flex-1 ms-3 whitespace-nowrap ">
                 <h2 className="font-bold text-gray-200 text-xl  " >What&apos;s App  </h2>
-                <p className="italic text-gray-200">Bat Observation Chat </p>
+                <p className="italic text-gray-200">Monitoring Chat</p>
                 <p className="text-xs italic text-gray-200">Contact Tamsyn for invite</p>
 
               </span>
