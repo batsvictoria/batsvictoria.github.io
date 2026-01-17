@@ -83,7 +83,7 @@ export default function Page() {
            
                     
                     <ul className="list-disc pl-5">
-                      <li>Share with the appropriate Bat Monitoring group chat on What's App</li>
+                      <li>Send to Brooke, Emma H or Tamsyn via What's App</li>
                       
                     </ul>
                   
