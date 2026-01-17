@@ -15,7 +15,7 @@ export default function Page() {
 
 
       <Pagetitle>How to Report</Pagetitle>
-
+<h6 className="pl-3 text-md ">As it will often be a different person rescuing or checking the bat, please provide as much information as you can.</h6>
  
 
 
@@ -83,7 +83,7 @@ export default function Page() {
            
                     
                     <ul className="list-disc pl-5">
-                      <li>Share with</li>
+                      <li>Share with the appropriate Bat Monitoring group chat on What's App</li>
                       
                     </ul>
                   
