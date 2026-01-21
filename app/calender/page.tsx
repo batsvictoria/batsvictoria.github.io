@@ -50,18 +50,18 @@ export default function Page() {
       <div className="relative  overflow-x-auto  sm:rounded-lg  ">
 
             <span><h2 className="  text-3xl font-extrabold mb-2 m-3">Pup Season</h2></span>
-        <table className="w-full text-sm  ">
+        <table className="w-full text-sm">
           <tbody className=" text-gray-200 ">
             <tr className="text-center align-top">
-              <th scope="col" className="px-4  py-1    ">
+              <th scope="col" className="px-4  py-1    " style={{ width: "33%"}}>
                 <h4 className="text-xl text-gray-900" > Oct-Nov</h4>
                 <p className="text-gray-900 text-sm">Pups should be on mum for the 1st 4 weeks of their life.</p>
               </th>
-              <th scope="col" className=" border-s  border-gray-900 px-4 py-1  ">
+              <th scope="col" className=" border-s  border-gray-900 px-4 py-1  "style={{ width: "33%"}}>
                 <h4 className="text-xl text-gray-900"> Nov-Dec</h4>
                 <p className="text-gray-900 text-sm">Mums will leave their babies in the tree for a break</p>
               </th>
-              <th scope="col" className=" border-s border-gray-900 px-4 py-1  ">
+              <th scope="col" className=" border-s border-gray-900 px-4 py-1  "style={{ width: "33%"}}>
                 <h4 className="text-xl text-gray-900"> Jan-Feb</h4>
                 <p className="text-gray-900 text-sm">Pups are learning to fly and will fly if approached.</p>
               </th>
