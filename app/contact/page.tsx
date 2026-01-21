@@ -33,13 +33,16 @@ export default function Page() {
               <li className="text-md">0491 101 148</li>
         
               </a></ContactItem>
-          <ContactItem name="Brooke" url="#" icon="/images/bat_logo-02.svg" >
-               <a href="tel:0419170286"> 
-              <p className="italic text-sm "> Fly by Night</p>
+          <ContactItem name="Brooke" url="#" icon="/images/bat_logo-01.svg" >
+               <a href="tel:0423131581"> 
+              <p className="italic text-sm ">Friends of Bats & Bushcare</p>
               <li className="text-md">0423 131 581</li>
               
               </a></ContactItem>
-          <ContactItem name="Megan" url="#" icon="/images/bat_logo-01.svg">Friends of Bats & Bushcare</ContactItem>
+          <ContactItem name="Megan" url="#" icon="/images/bat_logo-01.svg">
+          <p className="italic text-sm ">Friends of Bats & Bushcare</p>
+           
+          </ContactItem>
 
           {/* 
           <li>
