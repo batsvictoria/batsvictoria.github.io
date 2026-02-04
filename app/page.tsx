@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Pagetitle from "./components/pagetitle";
-import { faBriefcaseMedical, faCircleInfo, faEye, faFlag, faLocationDot, faPhone, faCalendarDays, IconDefinition } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcaseMedical, faCircleInfo, faEye, faFlag, faLocationDot, faPhone, faCalendarDays, IconDefinition, faTemperatureFull } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const metadata: Metadata = {
@@ -41,6 +41,7 @@ export default function Page() {
           <NavLink title="Locations" description="Location Terminology" url="/locations" icon={faLocationDot} />
           <NavLink title="What to Look for" description="Sights and Sounds" url="/look" icon={faEye} />
           <NavLink title="Report" description="How to report inc. deceased" url="/report" icon={faFlag} />
+          <NavLink title="Heat Events" description="Colony Information for Heat Events" url="/heat" icon={faTemperatureFull} />
           <NavLink title="Rescue and Wrap" description="Vaxxed rescuers only" url="/rescue" icon={faBriefcaseMedical} />
           <NavLink title="Calendar" description="Important dates and bat behaviour" url="/calender" icon={faCalendarDays} />
           

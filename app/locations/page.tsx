@@ -50,6 +50,22 @@ export default function Page() {
           <LocationPin name="Freeway Bridge" color="text-blue-600" />
           <LocationPin name="Kew Side"       color="text-yellow-500" />
           </div>
+      </div>
+      
+              <div className="w-full p-4 rounded-lg sm:p-6   mb-2">
+        <Pagetitle>Avoid Walking On The Fire Track</Pagetitle>
+        <p>Please note: The bats along the fire track are more sensitive than those on the paths. Experienced volunteers in this area only or unless you have been directed. There are signs in this area as a reminder. </p>
+      
+   
+          <div className="grid grid-cols-2 gap-4 xl:grid-cols-4">
+            <div className="col-span-full">
+              <img
+                src="images/heat_map_yb.svg"
+                alt=""
+                className="flex-shrink-0" />
+            </div>
+         
+          </div>
         </div>
      
         <div className="w-full p-4 rounded-lg sm:p-6   mb-2">
