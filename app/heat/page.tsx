@@ -5,7 +5,7 @@ export const metadata: Metadata = {
 };
 
 import Pagetitle from '@/components/pagetitle'
-import {  faAnglesDown, faBan, faCamera, faFan, faPaperPlane, faPersonWalking, faWind } from "@fortawesome/free-solid-svg-icons";
+import {  faAnglesDown, faBan, faFan, faWind } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Page() {
