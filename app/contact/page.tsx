@@ -17,7 +17,7 @@ export default function Page() {
       <Pagetitle>Important Contacts</Pagetitle>
 
       <div className="w-full  p-4 0  sm:p-6   mb-2">
-        <p className="text-md  text-gray-900  font-semibold">Call or contact via What's App for any enquiries, questions or concerns</p>
+        <p className="text-md  text-gray-900  font-semibold">Contact via What's App for any enquiries, questions or concerns</p>
         <ul className="my-4 space-y-3  ">
 
           <ContactItem name="Tamsyn" url="#" icon="/images/bat_logo-02.svg"  >

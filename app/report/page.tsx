@@ -32,12 +32,9 @@ export default function Page() {
                       </td>
                       <td className="px-6 py-4  ">
                         <h6 className="font-semibold text-2xl ">Record Location</h6>
-                        <p>Pin drop the location on either</p>
+                        <p>Pin drop the location on "What 3 Words"</p>
                     
-                    <ul className="list-disc pl-5">
-                      <li>Google Maps</li>
-                      <li>What 3 Words</li>
-                    </ul>
+                 
                   
                         
                       </td>

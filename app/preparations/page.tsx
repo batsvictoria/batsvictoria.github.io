@@ -32,7 +32,8 @@ export default function Page() {
                       </td>
                       <td className="px-6 py-4  ">
                         <h1 className="font-semibold text-2xl ">Pair Up</h1>
-                        <p>Go in Pairs or let someone know you are going to check camp.</p>
+                  <p>Go in Pairs or let someone know you are going to check camp.</p>
+                  <p>Please let us know when you are checking camp, so we can keep track of when the camp has been monitored.</p>
                       </td>
                     </tr>
       
@@ -129,11 +130,11 @@ export default function Page() {
 
                 <ul className="list-disc">
                   <li><p className="text-red-500 font-bold underline" >ALL RESCUERS MUST BE VACCINATED </p></li>
-                <li>Do not attempt retrieval without second opinion from experienced carers or rescuers.</li>
+                <li>DO NOT attempt retrieval without second opinion from experienced carers or rescuers.</li>
                 <li>Retrieving pups needs to be done as quietly as possible without disrupting the camp.</li>
                 <li>Tree climbers will only be used for pups outside of the camp.</li>
                 <li>Rescuers with 10M+ poles must be experienced or trained before attempting pole rescue.</li>
-                <li>All pups rescued(?) must be reported to group chat, Tamsyn, Emma H or Megan.</li>
+                <li>If a pup has been rescued, it must be reported to group chat, Tamsyn, Emma H, Brooke or Megan.</li>
               </ul>
             </td>
           </tr>
